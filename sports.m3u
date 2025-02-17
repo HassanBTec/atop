@@ -1,0 +1,99 @@
+﻿#EXTM3U
+#EXTINF:-1,01. Motor Racing
+https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
+#EXTINF:-1,01.TNT SPORT 1
+acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1,02.TNT SPORT 2
+acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801
+#EXTINF:-1,03.TNT SPORT 3
+acestream://5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1,04.TNT SPORT 4
+acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
+#EXTINF:-1,05. Premiere Sport 1 UK_
+http://192.168.7.198:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
+#EXTINF:-1,06. Premiere Sport 2 UK_
+http://192.168.7.198:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1,07. Eleven Sports HD_
+http://192.168.7.198:6878/ace/getstream?id=14407b00d454cb7dc0d70aa26e8bbc554f457f00
+#EXTINF:-1,08. DAZN_
+http://192.168.7.198:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b
+#EXTINF:-1,09.BT SPORT/ESPN
+acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
+#EXTINF:-1,10.BEIN 1 BE
+acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
+#EXTINF:-1,11.BEIN 2 BE
+acestream://edb507e38394d614c9ff55805c9d354ae13210bc
+#EXTINF:-1,12.BEIN 3 BE
+acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
+#EXTINF:-1,13.BEIN ES
+acestream://92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
+#EXTINF:-1,14.Sky Action_
+http://192.168.7.198:6878/ace/getstream?id=8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
+#EXTINF:-1,15.Sky Premiere_
+http://192.168.7.198:6878/ace/getstream?id=3306fb30138814e54a46cd8dc1ef1c864e8b3b53
+#EXTINF:-1,16.Sky Special_
+http://192.168.7.198:6878/ace/getstream?id=dd70fe2057d698d528f627c578733814b74557c5
+#EXTINF:-1,17.CANAL+ PL
+acestream://cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
+#EXTINF:-1,18.NAT GEO W
+acestream://82fc15374047fb04b38e5b4a034a62d4ac3b2478
+#EXTINF:-1,19.NAT GEO W PL_
+http://192.168.7.198:6878/ace/getstream?id=67ad6e798f206193a5b8f456a622460d9c7d2e29
+#EXTINF:-1,20.NAT GEO W RU
+acestream://5347a5417c376ac10cdf9c1a3a26eadbe76c280a
+#EXTINF:-1,21.NAT GEO W DE_
+http://192.168.7.198:6878/ace/getstream?id=394354a04edd738876b8b2ecab15d4765d33b37f
+#EXTINF:-1,22.HBO PL_
+http://192.168.7.198:6878/ace/getstream?id=bb497b248bb728dbe27f731f084e06462c05a04c
+#EXTINF:-1,23.HBO 2 PL_
+http://192.168.7.198:6878/ace/getstream?id=a17f77bbe25cb90f1b7b138ae718b6ae8997000c
+#EXTINF:-1,24.HBO 3 PL_
+http://192.168.7.198:6878/ace/getstream?id=e2de327f6e9ea10cd76b52ddd5e03a63c0e1241d
+#EXTINF:-1,25.CINEMAX 1_
+http://192.168.7.198:6878/ace/getstream?id=624ba2d277ec55c7d742acd687dadc6e69a8fea9
+#EXTINF:-1,26.CINEMAX 2_
+http://192.168.7.198:6878/ace/getstream?id=5cc11fdb007856a52f131a63a5baee1b15908046
+#EXTINF:-1,28.EUROSPORT 1
+acestream://1e9b308c6b825203646420893f9b23a3542c01f4
+#EXTINF:-1,29.EUROSPORT 1 DE_
+http://192.168.7.198:6878/ace/getstream?id=b8cad4710b1c3b2b84a82c1ece40c08517b8f766
+#EXTINF:-1,39.EUROSPORT 1 RU
+acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62
+#EXTINF:-1,31.EUROSPORT 2 DE
+acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
+#EXTINF:-1,32.EUROSPORT 2 PL
+acestream://7aa9cc819c6fa781dea6b4de3aa5393258b766d8
+#EXTINF:-1,33.EUROSPORT 2 RU
+acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
+#EXTINF:-1,34.EUROSPORT PL
+acestream://314eb626864faf52e01624361bd6906b5406127f
+#EXTINF:-1,35.FOX SPORTS 1
+acestream://c9c062941fbecb16ce29437f346ea7177d720898
+#EXTINF:-1,36.FOX SPORTS 2
+acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
+#EXTINF:-1,37.SPORT1+ DE_
+http://192.168.7.198:6878/ace/getstream?id=e61b6538df35e5016635dfa2b3073f5b82ee4c2b
+#EXTINF:-1,38.BEIN SPORTS 1 TR
+acestream://118416583faa3fb4f03800173429b6b844b43a52
+#EXTINF:-1,39.Футбол 1
+acestream://97a358fb03be9590e1766d937bc8902fc6b66737
+#EXTINF:-1,40.Футбол 1-
+acestream://e7aa45b8df0cd3a160c7f3e085f1343b00115964
+#EXTINF:-1,41.Футбол 2
+acestream://4fb7d7f128d371205a6bce4caf4a3d68664728cf
+#EXTINF:-1,42.Футбол 3
+acestream://b49b412148acd9b64a20eaa5e92b597a9ae9ff85
+#EXTINF:-1,43.Футбол
+acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
+#EXTINF:-1,44.Футбол 1 HD_
+http://192.168.7.198:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9
+#EXTINF:-1,45.Футбол 2 HD_
+http://192.168.7.198:6878/ace/getstream?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04
+#EXTINF:-1,46.Футбол 3 HD_
+http://192.168.7.198:6878/ace/getstream?id=b6baa046075d82da300fc1b16de96067a8b9540e 
+#EXTINF:-1,Sports ES
+http://aztkplay.pro:8080/Chavita86/LWmvH1yh1K/59938
+#EXTINF:-1,HBO 2 HD 
+http://38.41.8.1:8000/play/a021
+#EXTINF:-1,Bein movies 
+http://vipgsiv.top:8080/VIP01205172285803692/c12ba3e2d202/2382
