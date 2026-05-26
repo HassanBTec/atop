@@ -1,3 +1,259 @@
+"use client";
+
+import { memo, PropsWithChildren, type ReactNode } from "react";
+import ReactMarkdown, { type Components } from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeKatex from "rehype-katex";
+import { PreBlock } from "./pre-block";
+import { isJson, isString, toAny } from "lib/utils";
+import JsonView from "ui/json-view";
+import { LinkIcon } from "lucide-react";
+
+type MarkdownProps = {
+  children: string;
+  className?: string;
+};
+
+const HTML_PREVIEW_LANGUAGES = new Set(["html", "htm"]);
+
+function getCodeLanguage(className?: string) {
+  return /language-([\w-]+)/.exec(className ?? "")?.[1]?.toLowerCase();
+}
+
+function getCodeString(children: ReactNode) {
+  return String(children).replace(/\n$/, "");
+}
+
+function shouldPreviewHtml(language?: string) {
+  return Boolean(language && HTML_PREVIEW_LANGUAGES.has(language));
+}
+
+type HtmlPreviewProps = {
+  code: string;
+};
+
+const HtmlPreview = memo(function HtmlPreview({ code }: HtmlPreviewProps) {
+  return (
+    <div className="my-3 overflow-hidden rounded-lg border bg-background">
+      <div className="flex items-center justify-between border-b bg-muted/40 px-3 py-2 text-xs font-medium text-muted-foreground">
+        <span>HTML Preview</span>
+      </div>
+
+      <iframe
+        title="HTML preview"
+        srcDoc={code}
+        sandbox=""
+        referrerPolicy="no-referrer"
+        loading="lazy"
+        className="h-[360px] w-full bg-white"
+      />
+    </div>
+  );
+});
+
+export const FadeIn = memo(function FadeIn({
+  children,
+}: PropsWithChildren) {
+  return (
+    <span className="fade-in animate-in duration-1000">
+      {children}
+    </span>
+  );
+});
+
+export const WordByWordFadeIn = memo(function WordByWordFadeIn({
+  children,
+}: PropsWithChildren) {
+  const childrens = [children];
+
+  return (
+    <>
+      {childrens.map((child, index) => {
+        if (!isString(child)) {
+          return <FadeIn key={index}>{child}</FadeIn>;
+        }
+
+        const words = child.split(/(\s+)/);
+
+        return words.map((word, wordIndex) => (
+          <FadeIn key={`${index}-${wordIndex}`}>{word}</FadeIn>
+        ));
+      })}
+    </>
+  );
+});
+
+const markdownComponents: Components = {
+  a({ href, children, ...props }) {
+    const isExternal =
+      typeof href === "string" &&
+      /^(https?:)?\/\//i.test(href);
+
+    return (
+      <a
+        href={href}
+        {...props}
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noreferrer noopener" : undefined}
+        className="inline-flex items-center gap-1 underline underline-offset-4"
+      >
+        {children}
+        {isExternal ? <LinkIcon className="h-3.5 w-3.5 shrink-0" /> : null}
+      </a>
+    );
+  },
+
+  p({ children }) {
+    return <p className="leading-7 [&:not(:first-child)]:mt-4">{children}</p>;
+  },
+
+  ul({ children }) {
+    return <ul className="my-4 ml-6 list-disc">{children}</ul>;
+  },
+
+  ol({ children }) {
+    return <ol className="my-4 ml-6 list-decimal">{children}</ol>;
+  },
+
+  li({ children }) {
+    return <li className="mt-2">{children}</li>;
+  },
+
+  blockquote({ children }) {
+    return (
+      <blockquote className="mt-6 border-l-2 pl-6 italic">
+        {children}
+      </blockquote>
+    );
+  },
+
+  h1({ children }) {
+    return (
+      <h1 className="mt-2 scroll-m-20 text-4xl font-bold tracking-tight">
+        {children}
+      </h1>
+    );
+  },
+
+  h2({ children }) {
+    return (
+      <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        {children}
+      </h2>
+    );
+  },
+
+  h3({ children }) {
+    return (
+      <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+        {children}
+      </h3>
+    );
+  },
+
+  h4({ children }) {
+    return (
+      <h4 className="mt-8 scroll-m-20 text-xl font-semibold tracking-tight">
+        {children}
+      </h4>
+    );
+  },
+
+  table({ children }) {
+    return (
+      <div className="my-6 w-full overflow-y-auto">
+        <table className="w-full">{children}</table>
+      </div>
+    );
+  },
+
+  thead({ children }) {
+    return <thead className="[&_tr]:border-b">{children}</thead>;
+  },
+
+  tbody({ children }) {
+    return <tbody className="[&_tr:last-child]:border-0">{children}</tbody>;
+  },
+
+  tr({ children }) {
+    return <tr className="border-b transition-colors">{children}</tr>;
+  },
+
+  th({ children }) {
+    return (
+      <th className="h-12 px-4 text-left align-middle font-medium">
+        {children}
+      </th>
+    );
+  },
+
+  td({ children }) {
+    return <td className="p-4 align-middle">{children}</td>;
+  },
+
+  code({ className, children, ...props }) {
+    const code = getCodeString(children);
+    const language = getCodeLanguage(className);
+
+    const isInlineCode =
+      !className &&
+      !String(children).includes("\n");
+
+    if (isInlineCode) {
+      return (
+        <code
+          {...props}
+          className="rounded bg-muted px-1.5 py-0.5 font-mono text-[0.9em]"
+        >
+          {children}
+        </code>
+      );
+    }
+
+    if (shouldPreviewHtml(language)) {
+      const sourceBlock = (
+        <PreBlock className={className} {...props}>
+          {children}
+        </PreBlock>
+      );
+
+      return (
+        <div className="space-y-2">
+          <HtmlPreview code={code} />
+          {sourceBlock}
+        </div>
+      );
+    }
+
+    if (isJson(code)) {
+      return <JsonView data={toAny(code)} />;
+    }
+
+    return (
+      <PreBlock className={className} {...props}>
+        {children}
+      </PreBlock>
+    );
+  },
+};
+
+function PureMarkdown({ children, className }: MarkdownProps) {
+  return (
+    <div className={className}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeKatex]}
+        components={markdownComponents}
+      >
+        {children}
+      </ReactMarkdown>
+    </div>
+  );
+}
+
+export const Markdown = memo(PureMarkdown);
+export default Markdown;
+
 DEPENDENCIES
 
 Install the following packages to be able to build atop (package name
