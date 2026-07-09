@@ -1,7 +1,5 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-id="A&E East (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Entertainment",A&E East (720p) [Not 24/7]
-https://tvpass.org/live/AEEast/hd
-#EXTINF:0,01.TNT SPORT 1
+#EXTINF:-1 tvg-id="01.TNT SPORT 1",01.TNT SPORT 1
 acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
 #EXTINF:0,02.TNT SPORT 2
 acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801
@@ -17,8 +15,6 @@ acestream://4903ca695edb64bc72ae29eb85a5333ba0139537
 acestream://14407b00d454cb7dc0d70aa26e8bbc554f457f00
 #EXTINF:0,08.DAZN
 acestream://36cad67fed5a739757a9db844a551aa845a8d51b
-#EXTINF:0,08-.DAZN
-acestream://92d60f1e1b0a50790cec418bd115be01d274af64
 #EXTINF:0,09.BT SPORT/ESPN
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
 #EXTINF:0,10.BEIN 1 BE
@@ -27,14 +23,12 @@ acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
 acestream://edb507e38394d614c9ff55805c9d354ae13210bc
 #EXTINF:0,12.BEIN 3 BE
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
-#EXTINF:0,13.BEIN ES
-acestream://ac033bf7bf6eb4efa5ca3f8070742093eab47685
+#EXTINF:0,13.Canal+ Film
+acestream://
 #EXTINF:0,14.Sky Action
 acestream://8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
 #EXTINF:0,15.Sky Premiere
 acestream://3306fb30138814e54a46cd8dc1ef1c864e8b3b53
-#EXTINF:0,15-.Sky Premiere
-acestream://cf3db052c1bc48dd5c9e55c5b443d494ca277700
 #EXTINF:0,16.Sky Special
 acestream://dd70fe2057d698d528f627c578733814b74557c5
 #EXTINF:0,17.CANAL+ PL
@@ -51,8 +45,6 @@ acestream://394354a04edd738876b8b2ecab15d4765d33b37f
 acestream://bb497b248bb728dbe27f731f084e06462c05a04c
 #EXTINF:0,23.HBO 2 PL
 acestream://a17f77bbe25cb90f1b7b138ae718b6ae8997000c
-#EXTINF:0,23-.HBO 2
-acestream://0f2984dfd4c8afb5a3d3a51abb4ca3d0b954e037
 #EXTINF:0,24.HBO 3 PL
 acestream://e2de327f6e9ea10cd76b52ddd5e03a63c0e1241d
 #EXTINF:0,25.CINEMAX 1
@@ -101,55 +93,13 @@ acestream://b28db77c5084da7993395d77df96c30bb134f0a9
 acestream://ffbf8c687c788d9a1a7c651e24802ee773ff3f04
 #EXTINF:0,46.Футбол 3 HD
 acestream://b6baa046075d82da300fc1b16de96067a8b9540e
-#EXTINF:0,47.BEIN 1 Sports
-acestream://58e454d067b9e25e40f3c62b3430b55ef6fead09
-#EXTINF:0,48.BEIN 2 Sports
-acestream://fa0a5dd9ecc3febbda8b6e1805c539a93fe515ac
-#EXTINF:0,49.BEIN 3 Sports
-acestream://519c2159e9228bfe2f94911dfa111b01d0a896e2
-#EXTINF:0,50.Eleven 1 Sports
-acestream://969e14989a98c62518a7640741dbf15d90212d1a
-#EXTINF:0,51.Eleven 2 Sports
-acestream://27573fb01690fd55b25c07ae2180ee44b1ad8a7c
-#EXTINF:0,52.Eleven 3 Sports
-acestream://33246d7ad41db9ad7654f0d553b5e7500363d1b8
-#EXTINF:0,53.Eleven 4 Sports
-acestream://3c0cfbeb4075be58baa32e41dabee3c75b8a80e6
-#EXTINF:0,54.Eleven 5 Sports
-acestream://2c9a996c060d157ff63109c5b999d55bbc2ffd95
-#EXTINF:0,55.TLC 1
-acestream://52fdcc9090b3f0697f1eafabf943aad1f6479658
-#EXTINF:0,56.TLC 2
-acestream://53ef2131d3c124dbed3188e32ab95596dc01fd32
-#EXTINF:0,57.MBC 5
-acestream://1bb35fb027da2824f9c03db6bebc44610bb59606
-#EXTINF:0,58.MBC 5.
-acestream://53ec44f95d237ab4d45a532b980b9c974d4901c2
-#EXTINF:0,59.MBC Drama Plus
-acestream://e8bea2ec693808648ab2f8a234d408d3e9f4cfe7
-#EXTINF:0,60.MBC Drama Plus.
-acestream://ef4c8701b30ca3b18bef8b8f9d0ccdb83f58ef5a
-#EXTINF:0,61.MBC Masr 2
-acestream://e06cdede081d4d5db73596f786b20cf7ded3e7aa
-#EXTINF:0,62.MBC Masr 2.
-acestream://c3c7f52197a0e716d5d55cae3a072940cd723139
-#EXTINF:0,63.MBC Drama Plus
-acestream://e8bea2ec693808648ab2f8a234d408d3e9f4cfe7
-#EXTINF:0,64.MBC Drama Plus.
-acestream://ef4c8701b30ca3b18bef8b8f9d0ccdb83f58ef5a
-#EXTINF:0,65.MBC 3
-acestream://2b4922f8c51856d20ba6a29af8abc13aaf584fed
-#EXTINF:0,66.MBC 3.
-acestream://04ddb707c73215c5ee98bbe408c6baf30bd6ce90
-#EXTINF:0,67.MBC 4
-acestream://22adc39315ec34402624bbc66e2dc9d0c0044caa
-#EXTINF:0,68.HBO HD
-acestream://b020d84a69b399984cede54ca1ef3e28c8314467
-#EXTINF:0,69.HBO 2
-acestream://f3e0722576c2e105298cddc7a53ab1a1ce3cd777
-#EXTINF:0,70.Cine+
-acestream://1cf225df0d806229c5d9db419ac041b77e511bcd
-#EXTINF:0,71.Shahid Movies Thriller
-acestream://68ab28f8644d31ad82ee4104803a5b8cd43ce8e2
-#EXTINF:0,72.Au Dhabi Sports 2
-acestream://d83819c51315ecb6925ae6614f88a9da9c891e0e
+#EXTINF:-1 tvg-id="MBC 3 USA (1080p) [Geo-blocked]",MBC 3 USA (1080p) [Geo-blocked]
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
+#EXTINF:-1 tvg-id="MBC 1 USA (1080p) [Geo-blocked]",MBC 1 USA (1080p) [Geo-blocked]
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8
+#EXTINF:-1 tvg-id="MBC Drama USA (1080p)",MBC Drama USA (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
+#EXTINF:-1 tvg-id="MBC Masr USA (1080p)",MBC Masr USA (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8
+#EXTINF:-1 tvg-id="A&E East (720p),[Not 24/7]" A&E East (720p) [Not 24/7]
+https://tvpass.org/live/AEEast/hd
