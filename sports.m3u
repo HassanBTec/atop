@@ -1,105 +1,105 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 tvg-id="01.TNT SPORT 1",01.TNT SPORT 1
 acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:0,02.TNT SPORT 2
+#EXTINF:-1 tvg-id="02.TNT SPORT 2",02.TNT SPORT 2
 acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:0,03.TNT SPORT 3
+#EXTINF:-1 tvg-id="03.TNT SPORT 3",03.TNT SPORT 3
 acestream://5f966c123759de46dff29c379266b7a403452033
-#EXTINF:0,04.TNT SPORT 4
+#EXTINF:-1 tvg-id="04.TNT SPORT 4",04.TNT SPORT 4
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
-#EXTINF:0,05.Premiere Sport 1 UK
+#EXTINF:-1 tvg-id="05.Premiere Sport 1 UK",05.Premiere Sport 1 UK
 acestream://75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:0,06.Premiere Sport 2 UK
+#EXTINF:-1 tvg-id="06.Premiere Sport 2 UK",06.Premiere Sport 2 UK
 acestream://4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:0,07.Eleven Sports HD
+#EXTINF:-1 tvg-id="07.Eleven Sports HD",07.Eleven Sports HD
 acestream://14407b00d454cb7dc0d70aa26e8bbc554f457f00
-#EXTINF:0,08.DAZN
+#EXTINF:-1 tvg-id="08.DAZN",08.DAZN
 acestream://36cad67fed5a739757a9db844a551aa845a8d51b
-#EXTINF:0,09.BT SPORT/ESPN
+#EXTINF:-1 tvg-id="09.BT SPORT/ESPN",09.BT SPORT/ESPN
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
-#EXTINF:0,10.BEIN 1 BE
+#EXTINF:-1 tvg-id="10.BEIN 1 BE",10.BEIN 1 BE
 acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
-#EXTINF:0,11.BEIN 2 BE
+#EXTINF:-1 tvg-id="11.BEIN 2 BE",11.BEIN 2 BE
 acestream://edb507e38394d614c9ff55805c9d354ae13210bc
-#EXTINF:0,12.BEIN 3 BE
+#EXTINF:-1 tvg-id="12.BEIN 3 BE",12.BEIN 3 BE
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
-#EXTINF:0,13.Canal+ Film
+#EXTINF:-1 tvg-id="13.Canal+ Film",13.Canal+ Film
 acestream://a663f007059f573e641386a1e8d5a0b8e7c92831
-#EXTINF:0,14.Sky Action
+#EXTINF:-1 tvg-id="14.Sky Action",14.Sky Action
 acestream://8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
-#EXTINF:0,15.Sky Premiere
+#EXTINF:-1 tvg-id="15.Sky Premiere",15.Sky Premiere
 acestream://3306fb30138814e54a46cd8dc1ef1c864e8b3b53
-#EXTINF:0,16.Sky Special
+#EXTINF:-1 tvg-id="16.Sky Special",16.Sky Special
 acestream://dd70fe2057d698d528f627c578733814b74557c5
-#EXTINF:0,17.CANAL+ PL
+#EXTINF:-1 tvg-id="17.CANAL+ PL",17.CANAL+ PL
 acestream://cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
-#EXTINF:0,18.NAT GEO W
+#EXTINF:-1 tvg-id="18.NAT GEO W",18.NAT GEO W
 acestream://82fc15374047fb04b38e5b4a034a62d4ac3b2478
-#EXTINF:0,19.NAT GEO W PL
+#EXTINF:-1 tvg-id="19.NAT GEO W PL",19.NAT GEO W PL
 acestream://67ad6e798f206193a5b8f456a622460d9c7d2e29
-#EXTINF:0,20.NAT GEO W RU
+#EXTINF:-1 tvg-id="20.NAT GEO W RU",20.NAT GEO W RU
 acestream://5347a5417c376ac10cdf9c1a3a26eadbe76c280a
-#EXTINF:0,21.NAT GEO W DE
+#EXTINF:-1 tvg-id="21.NAT GEO W DE",21.NAT GEO W DE
 acestream://394354a04edd738876b8b2ecab15d4765d33b37f
-#EXTINF:0,22.HBO PL
+#EXTINF:-1 tvg-id="22.HBO PL",22.HBO PL
 acestream://bb497b248bb728dbe27f731f084e06462c05a04c
-#EXTINF:0,23.HBO 2 PL
+#EXTINF:-1 tvg-id="23.HBO 2 PL",23.HBO 2 PL
 acestream://a17f77bbe25cb90f1b7b138ae718b6ae8997000c
-#EXTINF:0,24.HBO 3 PL
+#EXTINF:-1 tvg-id="24.HBO 3 PL",24.HBO 3 PL
 acestream://e2de327f6e9ea10cd76b52ddd5e03a63c0e1241d
-#EXTINF:0,25.CINEMAX 1
+#EXTINF:-1 tvg-id="25.CINEMAX 1",25.CINEMAX 1
 acestream://624ba2d277ec55c7d742acd687dadc6e69a8fea9
-#EXTINF:0,26.CINEMAX 2
+#EXTINF:-1 tvg-id="26.CINEMAX 2",26.CINEMAX 2
 acestream://5cc11fdb007856a52f131a63a5baee1b15908046
-#EXTINF:0,27.HBO RU
+#EXTINF:-1 tvg-id="27.HBO RU",27.HBO RU
 acestream://1d0c80ad0fea549969a41ee000eb86f249d95a7b
-#EXTINF:0,28.EUROSPORT 1
+#EXTINF:-1 tvg-id="28.EUROSPORT 1",28.EUROSPORT 1
 acestream://1e9b308c6b825203646420893f9b23a3542c01f4
-#EXTINF:0,29.EUROSPORT 1 DE
+#EXTINF:-1 tvg-id="29.EUROSPORT 1 DE",29.EUROSPORT 1 DE
 acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
-#EXTINF:0,29-.EUROSPORT 1
+#EXTINF:-1 tvg-id="29-.EUROSPORT 1",29-.EUROSPORT 1
 acestream://dd5af5b37e31838e0b6015f40fdc906576d7218e
-#EXTINF:0,39.EUROSPORT 1 RU
+#EXTINF:-1 tvg-id="39.EUROSPORT 1 RU",39.EUROSPORT 1 RU
 acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62
-#EXTINF:0,31.EUROSPORT 2 DE
+#EXTINF:-1 tvg-id="31.EUROSPORT 2 DE",31.EUROSPORT 2 DE
 acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
-#EXTINF:0,32.EUROSPORT 2 PL
+#EXTINF:-1 tvg-id="32.EUROSPORT 2 PL",32.EUROSPORT 2 PL
 acestream://7aa9cc819c6fa781dea6b4de3aa5393258b766d8
-#EXTINF:0,33.EUROSPORT 2 RU
+#EXTINF:-1 tvg-id="33.EUROSPORT 2 RU",33.EUROSPORT 2 RU
 acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
-#EXTINF:0,34.EUROSPORT PL
+#EXTINF:-1 tvg-id="34.EUROSPORT PL",34.EUROSPORT PL
 acestream://314eb626864faf52e01624361bd6906b5406127f
-#EXTINF:0,35.FOX SPORTS 1
+#EXTINF:-1 tvg-id="35.FOX SPORTS 1",35.FOX SPORTS 1
 acestream://c9c062941fbecb16ce29437f346ea7177d720898
-#EXTINF:0,36.FOX SPORTS 2
+#EXTINF:-1 tvg-id="36.FOX SPORTS 2",36.FOX SPORTS 2
 acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
-#EXTINF:0,37.SPORT1+ DE
+#EXTINF:-1 tvg-id="37.SPORT1+ DE",37.SPORT1+ DE
 acestream://e61b6538df35e5016635dfa2b3073f5b82ee4c2b
-#EXTINF:0,38.BEIN SPORTS 1 TR
+#EXTINF:-1 tvg-id="38.BEIN SPORTS 1 TR",38.BEIN SPORTS 1 TR
 acestream://118416583faa3fb4f03800173429b6b844b43a52
-#EXTINF:0,39.Футбол 1
+#EXTINF:-1 tvg-id="39.Футбол 1",39.Футбол 1
 acestream://97a358fb03be9590e1766d937bc8902fc6b66737
-#EXTINF:0,40.Футбол 1-
+#EXTINF:-1 tvg-id="40.Футбол 1-",40.Футбол 1-
 acestream://e7aa45b8df0cd3a160c7f3e085f1343b00115964
-#EXTINF:0,41.Футбол 2
+#EXTINF:-1 tvg-id="41.Футбол 2",41.Футбол 2
 acestream://4fb7d7f128d371205a6bce4caf4a3d68664728cf
-#EXTINF:0,42.Футбол 3
+#EXTINF:-1 tvg-id="42.Футбол 3",42.Футбол 3
 acestream://b49b412148acd9b64a20eaa5e92b597a9ae9ff85
-#EXTINF:0,43.Футбол
+#EXTINF:-1 tvg-id="43.Футбол",43.Футбол
 acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
-#EXTINF:0,44.Футбол 1 HD
+#EXTINF:-1 tvg-id="44.Футбол 1 HD",44.Футбол 1 HD
 acestream://b28db77c5084da7993395d77df96c30bb134f0a9
-#EXTINF:0,45.Футбол 2 HD
+#EXTINF:-1 tvg-id="45.Футбол 2 HD",45.Футбол 2 HD
 acestream://ffbf8c687c788d9a1a7c651e24802ee773ff3f04
-#EXTINF:0,46.Футбол 3 HD
+#EXTINF:-1 tvg-id="46.Футбол 3 HD",46.Футбол 3 HD
 acestream://b6baa046075d82da300fc1b16de96067a8b9540e
-#EXTINF:-1 tvg-id="MBC 3 USA (1080p) [Geo-blocked]",MBC 3 USA (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="47.MBC 3 USA (1080p) [Geo-blocked]",47.MBC 3 USA (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
-#EXTINF:-1 tvg-id="MBC 1 USA (1080p) [Geo-blocked]",MBC 1 USA (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="48.MBC 1 USA (1080p) [Geo-blocked]",48.MBC 1 USA (1080p) [Geo-blocked]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8
-#EXTINF:-1 tvg-id="MBC Drama USA (1080p)",MBC Drama USA (1080p)
+#EXTINF:-1 tvg-id="49.MBC Drama USA (1080p)",49.MBC Drama USA (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
-#EXTINF:-1 tvg-id="MBC Masr USA (1080p)",MBC Masr USA (1080p)
+#EXTINF:-1 tvg-id="50.MBC Masr USA (1080p)",50.MBC Masr USA (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8
-#EXTINF:-1 tvg-id="A&E East (720p),[Not 24/7]" A&E East (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="60.A&E East (720p),[Not 24/7]",60.A&E East (720p) [Not 24/7]
 https://tvpass.org/live/AEEast/hd
