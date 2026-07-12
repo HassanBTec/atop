@@ -23,8 +23,8 @@ acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
 acestream://edb507e38394d614c9ff55805c9d354ae13210bc
 #EXTINF:-1 tvg-id="12.BEIN 3 BE",12.BEIN 3 BE
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
-#EXTINF:-1 tvg-id="13.Canal+ Film",13.Canal+ Film
-acestream://a663f007059f573e641386a1e8d5a0b8e7c92831
+#EXTINF:-1 tvg-id="13.Canal+ Action",13.Canal+ Action
+acestream://75c6388623407cdf0d3fb14c51e4af997cea12c7
 #EXTINF:-1 tvg-id="14.Sky Action",14.Sky Action
 acestream://8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
 #EXTINF:-1 tvg-id="15.Sky Premiere",15.Sky Premiere
@@ -75,8 +75,8 @@ acestream://c9c062941fbecb16ce29437f346ea7177d720898
 acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
 #EXTINF:-1 tvg-id="37.SPORT1+ DE",37.SPORT1+ DE
 acestream://e61b6538df35e5016635dfa2b3073f5b82ee4c2b
-#EXTINF:-1 tvg-id="38.BEIN SPORTS 1 TR",38.BEIN SPORTS 1 TR
-acestream://118416583faa3fb4f03800173429b6b844b43a52
+#EXTINF:-1 tvg-id="38.Canal+ SR",38.Canal+ SR
+acestream://fc702b72e42792a13c1f531004c2df2ac8242b69
 #EXTINF:-1 tvg-id="39.Футбол 1",39.Футбол 1
 acestream://97a358fb03be9590e1766d937bc8902fc6b66737
 #EXTINF:-1 tvg-id="40.Футбол 1-",40.Футбол 1-
